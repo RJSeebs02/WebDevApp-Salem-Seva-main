@@ -1,0 +1,366 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	background-image: url(../images/EZ.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+#wrapper{
+	width:100%;
+	height: 100%;
+	margin-top: 190px;
+}
+#login-box{
+	width: 400px;
+	background: rgba(145,193,255,0.5);
+	border-radius: 10px;
+	box-shadow: 0 0 10px white;
+	justify-content: center;
+	margin: auto;
+}
+#login-main{
+	padding: 10px;
+}
+#login-main h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+#error_box{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width:400px;
+	background: rgb(104, 149, 255);
+	border: 3px solid;
+	text-align: center;
+}
+
+#error_box #error_notif{
+	padding: 20px;
+	color: white;
+}
+form .text_field{
+	position: relative;
+	margin: 30px;
+}
+form .text_field input{
+	width: 320px;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: 1px solid;
+	border-radius: 10px;
+	background: white;
+	outline: none;
+}
+
+form .text_field label{
+	font-size: 20px;
+}
+form .login-wrapper{
+	display: flex;
+	justify-content: center;
+}
+#loginbutton {
+	width: 300px;
+	height: 50px;
+	border: 1px solid;
+	background: #9891FF;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+#loginbutton:hover {
+	background-color: #407AFF;
+	transition: .5s;
+}
+
+
+#header {
+	color: #2EAEF9;
+	font-size: 20px;
+	padding-left: 50px;
+	font-weight: bold;
+	float: left;
+}
+
+#navbar {
+	background-image: url(../images/NavbarBG.jpg);
+	background-color: #5DACFA;
+	width: 100%;
+	height: 50;
+	padding-top: 20px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+#navbar #tabs{
+	font-size: 15px;
+	cursor: pointer;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+#navbar a {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	font-weight: bold;
+}
+
+#navbar #tabs :hover {
+	color: #FC5B55;
+	transition: 0.5s;
+}
+
+
+
+.reserve form {
+	border-radius: 10px;
+	background-color: rgba(145,193,255,0.5);
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.reserve h1 {
+	color: black;
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 215px;
+	height: 40px;
+}
+
+.reserve #submit {
+width: 50px;
+height: 50px;
+}
+
+
+
+table {
+	background-color: white;
+	margin: auto;
+}
+
+th {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.room form {
+	border-radius: 10px;
+	background-color: rgba(145,193,255,0.5);
+	width: 90%;
+	height: 300px;
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.room .text{
+	margin-right:200px;
+}
+.room h1 {
+	color: black;
+	font-size: 30px;
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+}
+
+.room .button {
+width: 100px;
+height: 50px;
+}
+
+.admin form {
+	border-radius: 10px;
+	background-color: rgba(145,193,255,0.5);
+	width: 90%;
+	height: 300px;
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.admin .text{
+	margin-right:200px;
+}
+
+.admin h1 {
+	color: black;
+	font-size: 30px;
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+}
+
+.admin .button {
+width: 100px;
+height: 50px;
+}
+
+.customer form {
+	border-radius: 10px;
+	background-color: rgba(145,193,255,0.5);
+	width: 90%;
+	height: 300px;
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.customer .text{
+	margin-right:70px;
+}
+
+.customer h1 {
+	color: black;
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+}
+
+.customer .button {
+width: 100px;
+height: 50px;
+}
+
+#wrapper1 {
+	margin: auto;
+	
+	width: 95%;
+	border-radius: 25px;
+	padding-bottom: 40px;
+}
+#submenu {
+	margin-left: 40px;
+	margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	background-color: rgba(0,0,0,1);
+	border-radius: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#submenu a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin:15px;
+}
+
+#submenu a:hover {
+	color: #407AFF;
+	transition: .5s;
+}
+
+.room {
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:20px;
+}
+
+.room .container .row .col .table-responsive .table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.room .container .row .col .table-responsive .table thead th{
+	border: 3px solid;
+	font-size: 20px;
+	border-color: black;
+	padding: 20px;
+	background-color: rgba(145,193,255,1);
+}
+
+.room .container .row .col .table-responsive .table tbody tr td{
+	border: 3px solid;
+	border-color: black;
+	padding: 20px;
+	text-decoration: none;
+}
+
+tr:nth-child(even){
+	background-color: rgba(145,193,255,1);
+}
+
+.admin {
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:20px;
+}
+
+.admin .container .row .col .table-responsive .table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.admin .container .row .col .table-responsive .table thead th{
+	border: 3px solid;
+	font-size: 20px;
+	border-color: black;
+	padding: 20px;
+	background-color: rgba(145,193,255,1);
+}
+
+.admin .container .row .col .table-responsive .table tbody tr td{
+	border: 3px solid;
+	border-color: black;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.customer {
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:20px;
+}
+
+.customer .container .row .col .table-responsive .table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.customer .container .row .col .table-responsive .table thead th{
+	border: 3px solid;
+	font-size: 20px;
+	border-color: black;
+	padding: 20px;
+	background-color: rgba(145,193,255,1);
+}
+
+.customer .container .row .col .table-responsive .table tbody tr td{
+	border: 3px solid;
+	border-color: black;
+	padding: 20px;
+	text-decoration: none;
+}
